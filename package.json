@@ -1,0 +1,35 @@
+{
+  "name": "tuseme-sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for the Tuseme SMS API",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": ["sms", "tuseme", "api", "messaging", "kenya", "africa", "bulk-sms"],
+  "author": "Tuseme <dev@tuseme.co.ke>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuseme/tuseme-node.git"
+  },
+  "homepage": "https://docs.tuseme.co.ke/sdks",
+  "bugs": {
+    "url": "https://github.com/tuseme/tuseme-node/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
